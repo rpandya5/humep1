@@ -464,290 +464,7 @@
 				)
 			)
 		)
-		(symbol "Adafruit Mini Analog Thumbstick-eagle-import:microbuilder_3.3V"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at -1.524 1.016 0)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "3.3V Supply"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "microbuilder_3.3V_1_0"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "3.3V"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Adafruit Mini Analog Thumbstick-eagle-import:microbuilder_HEADER-1X476MIL"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at -6.35 8.255 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -6.35 -7.62 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Adafruit Mini Analog Thumbstick:1X04_ROUND_76"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "PIN HEADER"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "microbuilder_HEADER-1X476MIL_1_0"
-				(polyline
-					(pts
-						(xy -6.35 -5.08) (xy 1.27 -5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 7.62) (xy -6.35 -5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 1.27 7.62)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 7.62) (xy -6.35 7.62)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 5.08 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 2.54 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 -2.54 0)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Adafruit Mini Analog Thumbstick-eagle-import:microbuilder_JOYSTICK_ANALOG_XY"
+		(symbol "Adafruit Mini Analog Thumbstick-eagle-import:JOYSTICK_ANALOG_XY"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -804,7 +521,7 @@
 					)
 				)
 			)
-			(symbol "microbuilder_JOYSTICK_ANALOG_XY_1_0"
+			(symbol "JOYSTICK_ANALOG_XY_1_0"
 				(polyline
 					(pts
 						(xy -3.1989 2.4495) (xy -1.7018 2.2352)
@@ -1004,7 +721,7 @@
 					)
 				)
 			)
-			(symbol "microbuilder_JOYSTICK_ANALOG_XY_2_0"
+			(symbol "JOYSTICK_ANALOG_XY_2_0"
 				(polyline
 					(pts
 						(xy -3.1989 2.4495) (xy -1.7018 2.2352)
@@ -1199,97 +916,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Adafruit Mini Analog Thumbstick-eagle-import:supply1_GND"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#GND"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at -2.54 -2.54 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "SUPPLY SYMBOL"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "supply1_GND_1_0"
-				(polyline
-					(pts
-						(xy -1.905 0) (xy 1.905 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 2.54 270)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
 							)
 						)
 					)
@@ -1980,28 +1606,22 @@
 		)
 	)
 	(junction
-		(at 140.208 178.816)
+		(at 96.52 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "16675732-e15c-4add-af0d-2f6173ff04a0")
+		(uuid "1e698f1d-143e-43dd-a805-8c8465c096eb")
 	)
 	(junction
-		(at 155.448 181.356)
+		(at 91.44 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "34e2c58e-e058-42dd-84a3-5a5a418f8933")
+		(uuid "4aefb079-b1bb-4ba9-845f-70220719d89c")
 	)
 	(junction
-		(at 140.208 176.276)
+		(at 40.64 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5921c252-94fd-4eb9-bb0f-4896b230ecfa")
-	)
-	(junction
-		(at 140.208 173.736)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "94672cb9-3509-4260-953d-67603110db21")
+		(uuid "6d1945f9-659b-4aa0-93cd-77a493bf8903")
 	)
 	(no_connect
 		(at 134.62 55.88)
@@ -2045,27 +1665,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 50.8) (xy 20.066 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0594149a-5669-47d5-a57b-6a624c95e5ea")
-	)
-	(wire
-		(pts
-			(xy 155.448 181.356) (xy 160.528 181.356)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "07e59889-0f29-4af0-9210-f355b3a0f748")
-	)
-	(wire
-		(pts
-			(xy 104.14 30.226) (xy 104.14 50.8)
+			(xy 104.14 30.48) (xy 104.14 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2075,7 +1675,17 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 30.226) (xy 172.72 43.18)
+			(xy 20.32 50.8) (xy 25.4 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c9cbecd-269c-48cb-b7b3-e6f27c183a22")
+	)
+	(wire
+		(pts
+			(xy 172.72 30.48) (xy 172.72 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2085,13 +1695,13 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 38.1) (xy 68.58 40.64)
+			(xy 91.44 50.8) (xy 96.52 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2ccca777-4a13-401c-a942-c689327b4c59")
+		(uuid "1eeb50a3-fdfd-464f-b63c-fdb33c507a6c")
 	)
 	(wire
 		(pts
@@ -2102,36 +1712,6 @@
 			(type default)
 		)
 		(uuid "308b13ad-6ac6-47cd-827d-33082ad2f4a6")
-	)
-	(wire
-		(pts
-			(xy 55.88 58.42) (xy 55.88 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3173e8a3-058c-4957-8ce6-3e8f594c7d8d")
-	)
-	(wire
-		(pts
-			(xy 84.074 71.628) (xy 84.074 74.168)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "368b3b2c-5653-4a5f-8736-a62ad91c1214")
-	)
-	(wire
-		(pts
-			(xy 140.208 178.816) (xy 124.968 178.816)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "3ab0404a-f08b-4699-9567-a94bca11f248")
 	)
 	(wire
 		(pts
@@ -2155,13 +1735,13 @@
 	)
 	(wire
 		(pts
-			(xy 140.208 181.356) (xy 155.448 181.356)
+			(xy 55.88 58.42) (xy 55.88 63.5)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "4f5ec345-ce5d-48fd-a644-a4aa90f68a7a")
+		(uuid "535ea85a-e548-44fa-a124-1510b0d9ba62")
 	)
 	(wire
 		(pts
@@ -2175,16 +1755,6 @@
 	)
 	(wire
 		(pts
-			(xy 155.448 176.276) (xy 140.208 176.276)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "595e7e02-5640-442d-9813-628ee8ace468")
-	)
-	(wire
-		(pts
 			(xy 170.18 68.58) (xy 170.18 71.12)
 		)
 		(stroke
@@ -2195,17 +1765,27 @@
 	)
 	(wire
 		(pts
-			(xy 130.048 173.736) (xy 140.208 173.736)
+			(xy 96.52 83.82) (xy 96.52 81.28)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "60482ed7-0c1b-4b6c-a4e1-789cfaa659f8")
+		(uuid "65b9e845-0ee6-4d72-a33a-a02ad418f510")
 	)
 	(wire
 		(pts
-			(xy 63.5 50.8) (xy 104.14 50.8)
+			(xy 96.52 96.52) (xy 96.52 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71c38db8-75e8-4c85-bcc8-8ab5f53e9a17")
+	)
+	(wire
+		(pts
+			(xy 63.5 50.8) (xy 91.44 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2215,13 +1795,43 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 50.8) (xy 48.26 50.8)
+			(xy 35.56 50.8) (xy 40.64 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7ee65b98-1585-4e9f-bbc4-2e73a4b55772")
+	)
+	(wire
+		(pts
+			(xy 96.52 55.88) (xy 96.52 60.96)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "82c9bb24-c582-4c0d-aa83-66e92a52b08d")
+	)
+	(wire
+		(pts
+			(xy 96.52 81.28) (xy 91.44 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "896f5c21-1ba6-4b66-a35f-fb267e7e8521")
+	)
+	(wire
+		(pts
+			(xy 91.44 81.28) (xy 91.44 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e0fec39-6acf-4346-aa92-2befdc05d04b")
 	)
 	(wire
 		(pts
@@ -2235,16 +1845,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 27.94) (xy 68.58 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "922c8f02-912a-4c90-b607-9018ee859987")
-	)
-	(wire
-		(pts
 			(xy 172.72 43.18) (xy 170.18 43.18)
 		)
 		(stroke
@@ -2252,26 +1852,6 @@
 			(type default)
 		)
 		(uuid "9673d788-b061-4039-8ecc-b5fc82bd6cc6")
-	)
-	(wire
-		(pts
-			(xy 124.968 176.276) (xy 140.208 176.276)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "96740051-c06b-41e2-9c72-7bd857bc6b2b")
-	)
-	(wire
-		(pts
-			(xy 140.208 178.816) (xy 155.448 178.816)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "99c3f31e-ab1c-4940-872a-949117846078")
 	)
 	(wire
 		(pts
@@ -2285,13 +1865,53 @@
 	)
 	(wire
 		(pts
-			(xy 140.208 173.736) (xy 155.448 173.736)
+			(xy 104.14 30.48) (xy 172.72 30.48)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "bee55484-ee89-4393-bbac-eb0d4e269263")
+		(uuid "9c953e64-4734-41fc-a070-464b693fae67")
+	)
+	(wire
+		(pts
+			(xy 96.52 50.8) (xy 96.52 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b21b4454-5dd4-452f-ab66-01e8dce56600")
+	)
+	(wire
+		(pts
+			(xy 96.52 50.8) (xy 104.14 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2a47ffd-80bc-461b-b49d-074a2aeb547e")
+	)
+	(wire
+		(pts
+			(xy 40.64 50.8) (xy 40.64 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbec14d7-7ade-41a3-b04a-d74a5ceaed0d")
+	)
+	(wire
+		(pts
+			(xy 96.52 71.12) (xy 96.52 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2730f8a-5c00-4b91-b4b4-d4118c6123ea")
 	)
 	(wire
 		(pts
@@ -2305,43 +1925,23 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 30.226) (xy 172.72 30.226)
+			(xy 40.64 50.8) (xy 48.26 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e1c95b49-fb6e-41bd-8af2-b644b3d04e1c")
+		(uuid "ece1f3de-2686-4c48-be85-17e25c12a0c0")
 	)
 	(wire
 		(pts
-			(xy 96.52 58.42) (xy 96.52 60.96)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "edb0bc65-f30a-4cdb-a7ca-83aa22a0b6c9")
-	)
-	(wire
-		(pts
-			(xy 84.074 81.788) (xy 84.074 84.328)
+			(xy 83.82 81.28) (xy 83.82 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f030bed6-e6aa-4812-afcb-31abbfd8cf02")
-	)
-	(wire
-		(pts
-			(xy 43.18 27.94) (xy 43.18 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f51e4741-3471-48ad-86cd-8b6fabdd7a60")
 	)
 	(wire
 		(pts
@@ -2374,8 +1974,30 @@
 		)
 		(uuid "08430b71-a6c9-4742-984d-1b9ecfc654e5")
 	)
+	(label "PWR"
+		(at 187.96 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1c84e174-a82d-4d31-9bd1-43fe4299be38")
+	)
+	(label "GND"
+		(at 21.59 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2fcffba6-d909-4acb-a4b5-83b6b4517458")
+	)
 	(label "3.3V"
-		(at 96.52 55.88 0)
+		(at 96.52 53.848 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2385,7 +2007,7 @@
 		)
 		(uuid "81f18f6e-d80b-41fb-954f-c662256c84bd")
 	)
-	(label "VRy"
+	(label "Y"
 		(at 130.556 53.34 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2396,29 +2018,51 @@
 		)
 		(uuid "96e4e4af-4a70-4c8c-9770-14e786a5976f")
 	)
-	(label "YOUT"
-		(at 132.588 176.276 180)
+	(label "PWR"
+		(at 43.688 50.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.2446 1.2446)
+				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "9ec5b689-a93b-448e-9bf1-731d9056c5c3")
+		(uuid "99a26c89-426f-4cf9-b266-4c38d6b941e4")
 	)
-	(label "XOUT"
-		(at 132.588 178.816 180)
+	(label "PWR"
+		(at 83.82 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.2446 1.2446)
+				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "be1c2fc3-9e4f-4d1b-b526-5acb0b9e7942")
+		(uuid "b50d7877-f914-4bc4-b802-da4bb8e61652")
 	)
-	(label "VRx"
+	(label "PWR"
+		(at 43.18 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c431083c-d152-4e3d-a211-d6f0cac1792e")
+	)
+	(label "PWR"
+		(at 63.5 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cad29fd5-c1bb-4d44-b63b-727e5d2703a1")
+	)
+	(label "X"
 		(at 117.094 50.8 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2431,7 +2075,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 84.074 84.328 0)
+		(at 83.82 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2439,8 +2083,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d92321e-203e-4b72-bacf-07c915dd34fd")
-		(property "Reference" "#PWR02"
-			(at 84.074 90.678 0)
+		(property "Reference" "#PWR04"
+			(at 83.82 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2449,7 +2093,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 84.074 89.408 0)
+			(at 83.82 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2457,7 +2101,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 84.074 84.328 0)
+			(at 83.82 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2466,7 +2110,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 84.074 84.328 0)
+			(at 83.82 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2475,7 +2119,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 84.074 84.328 0)
+			(at 83.82 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2489,7 +2133,73 @@
 		(instances
 			(project "humep1"
 				(path "/14fccf9a-1448-438f-8f4e-f1d2e36ca6d6"
-					(reference "#PWR02")
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 96.52 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17b08dd4-73b3-4a15-a106-4b7bf15e78c6")
+		(property "Reference" "#PWR06"
+			(at 96.52 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.52 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 96.52 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a06e767e-4548-4dd5-94e6-639337aedde4")
+		)
+		(instances
+			(project "humep1"
+				(path "/14fccf9a-1448-438f-8f4e-f1d2e36ca6d6"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -2505,7 +2215,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ba7fa70-7bba-4203-a604-2101eda60a25")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR01"
 			(at 43.18 46.99 0)
 			(effects
 				(font
@@ -2555,7 +2265,73 @@
 		(instances
 			(project "humep1"
 				(path "/14fccf9a-1448-438f-8f4e-f1d2e36ca6d6"
-					(reference "#PWR06")
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 40.64 53.34 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1eb1caa4-0936-4eae-97d5-a4e8474291bc")
+		(property "Reference" "#FLG01"
+			(at 40.64 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 40.64 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 40.64 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec8bb49f-9573-440a-ba9d-29afec193541")
+		)
+		(instances
+			(project "humep1"
+				(path "/14fccf9a-1448-438f-8f4e-f1d2e36ca6d6"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -2569,10 +2345,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "206dde13-3a2f-40cc-93b1-7cd1bfea74ee")
-		(property "Reference" "U2"
-			(at 55.88 43.688 0)
+		(property "Reference" "U1"
+			(at 55.88 45.466 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2580,7 +2355,7 @@
 			)
 		)
 		(property "Value" "LM1117DT-3.3"
-			(at 55.88 46.228 0)
+			(at 56.134 47.752 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2626,166 +2401,7 @@
 		(instances
 			(project "humep1"
 				(path "/14fccf9a-1448-438f-8f4e-f1d2e36ca6d6"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Adafruit Mini Analog Thumbstick-eagle-import:microbuilder_JOYSTICK_ANALOG_XY")
-		(at 96.52 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "23c4604b-c016-4a1f-8a18-af393d1e534b")
-		(property "Reference" "JOY1"
-			(at 99.568 61.595 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "JOYSTICK_ANALOG_XY"
-			(at 99.568 59.436 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Adafruit Mini Analog Thumbstick:JOYSTICK_ANALOG_MINITHM"
-			(at 96.52 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 96.52 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purpose" ""
-			(at 96.52 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "X"
-			(uuid "f46f5e36-d044-4c89-9cc2-bad30434883a")
-		)
-		(pin "X+"
-			(uuid "f422cd7e-f5ce-4ff4-9f72-e48a4f1e4742")
-		)
-		(pin "X-"
-			(uuid "418b7deb-a9a5-400d-af85-708885a15ec0")
-		)
-		(pin "Y"
-			(uuid "ef9b60e2-e139-45da-94f9-930383f56c67")
-		)
-		(pin "Y+"
-			(uuid "98118491-29c5-484e-be59-d830776a9da3")
-		)
-		(pin "Y-"
-			(uuid "ae459a3c-2372-476b-a21b-973917ea0bf1")
-		)
-		(instances
-			(project "humep1"
-				(path "/14fccf9a-1448-438f-8f4e-f1d2e36ca6d6"
-					(reference "JOY1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 68.58 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2aac1e53-f39c-4d58-8379-d785a76ce3a2")
-		(property "Reference" "C4"
-			(at 72.39 33.0199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 72.39 35.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 69.5452 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 68.58 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 68.58 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "319f4241-e838-43a1-b003-dbd4f96209e7")
-		)
-		(pin "2"
-			(uuid "6b192263-4ee2-46df-84f0-2f46cb6c176c")
-		)
-		(instances
-			(project "humep1"
-				(path "/14fccf9a-1448-438f-8f4e-f1d2e36ca6d6"
-					(reference "C4")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -2801,7 +2417,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c4b2975-ca2f-439b-b036-3dc00e85b64d")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR07"
 			(at 170.18 77.47 0)
 			(effects
 				(font
@@ -2851,42 +2467,42 @@
 		(instances
 			(project "humep1"
 				(path "/14fccf9a-1448-438f-8f4e-f1d2e36ca6d6"
-					(reference "#PWR03")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Adafruit Mini Analog Thumbstick-eagle-import:microbuilder_HEADER-1X476MIL")
-		(at 157.988 178.816 0)
-		(unit 1)
+		(lib_id "Adafruit Mini Analog Thumbstick-eagle-import:JOYSTICK_ANALOG_XY")
+		(at 96.52 88.9 0)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "396beb44-95ef-4b55-9e01-734585524c00")
-		(property "Reference" "JP2"
-			(at 151.638 170.561 0)
+		(fields_autoplaced yes)
+		(uuid "39e0847a-e886-499a-a3c1-1a8d68a97c86")
+		(property "Reference" "JOY2"
+			(at 91.948 88.2649 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.0795)
 				)
-				(justify left bottom)
+				(justify right)
 			)
 		)
-		(property "Value" "HEADER-1X476MIL"
-			(at 151.638 186.436 0)
+		(property "Value" "~"
+			(at 91.948 90.17 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.0795)
 				)
-				(justify left bottom)
-				(hide yes)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Adafruit Mini Analog Thumbstick:1X04_ROUND_76"
-			(at 157.988 178.816 0)
+		(property "Footprint" "Adafruit Mini Analog Thumbstick:JOYSTICK_ANALOG_MINITHM"
+			(at 96.52 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2895,7 +2511,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.988 178.816 0)
+			(at 96.52 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2904,7 +2520,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 157.988 178.816 0)
+			(at 96.52 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2912,96 +2528,44 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "c6d7e312-2892-456c-9dfd-f42b913ac4f8")
+		(property "Purpose" ""
+			(at 96.52 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "2"
-			(uuid "75f5d05b-23ba-4ff6-ac8f-c37bc5e67798")
+		(pin "X-"
+			(uuid "e10105b6-3446-4c37-8d77-cb8763ced8f0")
 		)
-		(pin "3"
-			(uuid "e8be187f-adfb-4153-a691-89cb89db87d3")
+		(pin "X+"
+			(uuid "f592add4-1602-430e-97df-905d027efa4e")
 		)
-		(pin "4"
-			(uuid "628d4582-a0e8-432f-b154-2214b80ffc66")
+		(pin "X"
+			(uuid "9eb5369c-7407-42a8-858e-e75ca08f0725")
+		)
+		(pin "Y"
+			(uuid "dcdb6aed-6a99-4992-80f2-169c160d5747")
+		)
+		(pin "Y-"
+			(uuid "58e36b3f-9d74-4026-93d0-baa411971d81")
+		)
+		(pin "Y+"
+			(uuid "5a23b321-0216-4b52-b05c-6d260ee99c03")
 		)
 		(instances
 			(project "humep1"
 				(path "/14fccf9a-1448-438f-8f4e-f1d2e36ca6d6"
-					(reference "JP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 68.58 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3c3e7988-41c5-452b-b745-c7fc5ab7f9a0")
-		(property "Reference" "#PWR07"
-			(at 68.58 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 68.58 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.58 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 68.58 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0258ea58-2960-47d8-a5bf-a6bfa348bc2b")
-		)
-		(instances
-			(project "humep1"
-				(path "/14fccf9a-1448-438f-8f4e-f1d2e36ca6d6"
-					(reference "#PWR07")
-					(unit 1)
+					(reference "JOY2")
+					(unit 2)
 				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 84.074 77.978 0)
+		(at 83.82 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3009,8 +2573,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3eb9d5fb-9645-42a1-85e7-804098ab00ea")
-		(property "Reference" "C1"
-			(at 87.376 76.7079 0)
+		(property "Reference" "C3"
+			(at 87.122 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3019,7 +2583,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 87.376 79.2479 0)
+			(at 87.122 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3028,7 +2592,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 85.0392 81.788 0)
+			(at 84.7852 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3037,7 +2601,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 84.074 77.978 0)
+			(at 83.82 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3046,7 +2610,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 84.074 77.978 0)
+			(at 83.82 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3063,41 +2627,42 @@
 		(instances
 			(project "humep1"
 				(path "/14fccf9a-1448-438f-8f4e-f1d2e36ca6d6"
-					(reference "C1")
+					(reference "C3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 187.96 50.8 0)
+		(lib_id "Device:C")
+		(at 63.5 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4c1ca00f-e652-49a4-b6a8-ef0732c9b245")
-		(property "Reference" "#FLG02"
-			(at 187.96 48.895 0)
+		(uuid "4bfd8aec-ed8e-4f5b-9c9a-85f5c9ce04aa")
+		(property "Reference" "C2"
+			(at 67.31 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Value" "PWR_FLAG"
-			(at 187.96 45.72 0)
+		(property "Value" "10uF"
+			(at 67.31 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 187.96 50.8 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 64.4652 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3106,7 +2671,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 187.96 50.8 0)
+			(at 63.5 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3114,74 +2679,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 187.96 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "57796ee0-80b7-4b60-994a-dd7410e9db26")
-		)
-		(instances
-			(project "humep1"
-				(path "/14fccf9a-1448-438f-8f4e-f1d2e36ca6d6"
-					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 20.066 50.8 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4e9c8c32-47cd-4433-9a93-90eac4dc4ad9")
-		(property "Reference" "#PWR01"
-			(at 13.716 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 14.478 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 20.066 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 20.066 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 20.066 50.8 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 63.5 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3190,145 +2689,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "7a73f46e-1af6-4c01-a615-4b420c072ca9")
+			(uuid "a73fef06-3767-4b0f-b1e8-d3822de474ed")
+		)
+		(pin "2"
+			(uuid "d43d6efb-17b2-4965-a109-9199c216fe65")
 		)
 		(instances
 			(project "humep1"
 				(path "/14fccf9a-1448-438f-8f4e-f1d2e36ca6d6"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Adafruit Mini Analog Thumbstick-eagle-import:supply1_GND")
-		(at 163.068 181.356 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5772aa94-23e4-481e-b8c7-8b7aa2e0ad35")
-		(property "Reference" "#GND03"
-			(at 163.068 181.356 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 165.608 178.816 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.068 181.356 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.068 181.356 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 163.068 181.356 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "55f8fa21-9d26-4f4b-a320-1aeaca4bb21a")
-		)
-		(instances
-			(project "humep1"
-				(path "/14fccf9a-1448-438f-8f4e-f1d2e36ca6d6"
-					(reference "#GND03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 43.18 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5cbec64b-2985-4ffb-8f33-e4f3253fdabd")
-		(property "Reference" "#FLG03"
-			(at 43.18 26.035 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 43.18 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 43.18 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 43.18 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "322eead3-e56a-408f-93cd-5269eefaba61")
-		)
-		(instances
-			(project "humep1"
-				(path "/14fccf9a-1448-438f-8f4e-f1d2e36ca6d6"
-					(reference "#FLG03")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -3344,7 +2713,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "697e8111-e768-4e32-b428-ad737a31209b")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 152.4 36.068 0)
 			(effects
 				(font
@@ -3573,7 +2942,7 @@
 		(instances
 			(project "humep1"
 				(path "/14fccf9a-1448-438f-8f4e-f1d2e36ca6d6"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -3589,7 +2958,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7248d05b-1998-4448-8e87-a803401832c0")
-		(property "Reference" "C2"
+		(property "Reference" "C4"
 			(at 192.024 55.8799 0)
 			(effects
 				(font
@@ -3643,247 +3012,24 @@
 		(instances
 			(project "humep1"
 				(path "/14fccf9a-1448-438f-8f4e-f1d2e36ca6d6"
-					(reference "C2")
+					(reference "C4")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 68.58 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "72d1c13c-54d2-4af9-9dde-d7e955504125")
-		(property "Reference" "#FLG04"
-			(at 68.58 26.035 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 68.58 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.58 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 68.58 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 68.58 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b7b5228f-301c-4443-82b5-c4317d862c90")
-		)
-		(instances
-			(project "humep1"
-				(path "/14fccf9a-1448-438f-8f4e-f1d2e36ca6d6"
-					(reference "#FLG04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Adafruit Mini Analog Thumbstick-eagle-import:microbuilder_3.3V")
-		(at 96.52 55.88 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "73029989-c55d-40a7-8ffe-71e96edd013b")
-		(property "Reference" "#U$01"
-			(at 96.52 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 98.044 54.864 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 96.52 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2660ca81-bca8-4a4a-8958-f4f87110bbbc")
-		)
-		(instances
-			(project "humep1"
-				(path "/14fccf9a-1448-438f-8f4e-f1d2e36ca6d6"
-					(reference "#U$01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Adafruit Mini Analog Thumbstick-eagle-import:microbuilder_JOYSTICK_ANALOG_XY")
-		(at 96.52 88.9 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7827ea0d-83f8-4c88-a949-d1d166f02d54")
-		(property "Reference" "JOY1"
-			(at 105.918 91.694 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "JOYSTICK_ANALOG_XY"
-			(at 98.806 94.488 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Adafruit Mini Analog Thumbstick:JOYSTICK_ANALOG_MINITHM"
-			(at 96.52 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 96.52 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purpose" ""
-			(at 96.52 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "X"
-			(uuid "74824f7c-4449-4725-a46a-e5bb290cd695")
-		)
-		(pin "X+"
-			(uuid "bca0adc4-2da6-4c6b-8cf1-a8fd9d2de9c1")
-		)
-		(pin "X-"
-			(uuid "69ecd08c-606d-4bb8-a233-444434a16141")
-		)
-		(pin "Y"
-			(uuid "627011f5-1557-43d4-a35d-38c3c61e5ee2")
-		)
-		(pin "Y+"
-			(uuid "73e3679e-2bde-409d-804b-63ace2455ef9")
-		)
-		(pin "Y-"
-			(uuid "ff479985-97c8-4a82-9586-5ed3922b3472")
-		)
-		(instances
-			(project "humep1"
-				(path "/14fccf9a-1448-438f-8f4e-f1d2e36ca6d6"
-					(reference "JOY1")
-					(unit 2)
 				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 55.88 60.96 0)
+		(at 63.5 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "996963f1-8082-4509-aae8-0bdd95b5ecf5")
-		(property "Reference" "#PWR05"
-			(at 55.88 67.31 0)
+		(uuid "76c0cf64-1211-4b5f-badd-dc851712f5ed")
+		(property "Reference" "#PWR03"
+			(at 63.5 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3892,7 +3038,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 55.88 66.04 0)
+			(at 63.5 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3900,7 +3046,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 60.96 0)
+			(at 63.5 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3909,7 +3055,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 60.96 0)
+			(at 63.5 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3918,7 +3064,73 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 60.96 0)
+			(at 63.5 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "717fc3fb-b64d-4040-a08a-27f50cc56a42")
+		)
+		(instances
+			(project "humep1"
+				(path "/14fccf9a-1448-438f-8f4e-f1d2e36ca6d6"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 55.88 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "996963f1-8082-4509-aae8-0bdd95b5ecf5")
+		(property "Reference" "#PWR02"
+			(at 55.88 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 55.88 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 55.88 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3932,74 +3144,7 @@
 		(instances
 			(project "humep1"
 				(path "/14fccf9a-1448-438f-8f4e-f1d2e36ca6d6"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Adafruit Mini Analog Thumbstick-eagle-import:microbuilder_3.3V")
-		(at 96.52 81.28 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a3ce7757-aa6d-42af-ba86-12dbd1275c64")
-		(property "Reference" "#U$02"
-			(at 96.52 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 98.044 80.264 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 96.52 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5310da26-d77e-4344-8485-5d8a07e34e76")
-		)
-		(instances
-			(project "humep1"
-				(path "/14fccf9a-1448-438f-8f4e-f1d2e36ca6d6"
-					(reference "#U$02")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -4015,7 +3160,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b25d67fd-6c30-4346-ab03-95ee26c3cc89")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR08"
 			(at 187.96 69.85 0)
 			(effects
 				(font
@@ -4065,41 +3210,41 @@
 		(instances
 			(project "humep1"
 				(path "/14fccf9a-1448-438f-8f4e-f1d2e36ca6d6"
-					(reference "#PWR04")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Adafruit Mini Analog Thumbstick-eagle-import:microbuilder_3.3V")
-		(at 127.508 173.736 90)
+		(lib_id "Adafruit Mini Analog Thumbstick-eagle-import:JOYSTICK_ANALOG_XY")
+		(at 96.52 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "bb0a7776-1f6e-4f9e-adcc-d14d9e8b30cf")
-		(property "Reference" "#U$03"
-			(at 127.508 173.736 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 126.492 175.26 0)
+		(uuid "ca90f714-915c-4597-be81-54c6629e4d30")
+		(property "Reference" "JOY2"
+			(at 103.632 61.722 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
 				)
-				(justify left bottom)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 127.508 173.736 0)
+		(property "Value" "~"
+			(at 92.202 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Adafruit Mini Analog Thumbstick:JOYSTICK_ANALOG_MINITHM"
+			(at 96.52 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4108,7 +3253,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127.508 173.736 0)
+			(at 96.52 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4117,7 +3262,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127.508 173.736 0)
+			(at 96.52 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4125,48 +3270,70 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "c546770c-9038-4de8-8e43-df7bc6aa96a3")
+		(property "Purpose" ""
+			(at 96.52 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "X-"
+			(uuid "e10105b6-3446-4c37-8d77-cb8763ced8f0")
+		)
+		(pin "X+"
+			(uuid "f592add4-1602-430e-97df-905d027efa4e")
+		)
+		(pin "X"
+			(uuid "9eb5369c-7407-42a8-858e-e75ca08f0725")
+		)
+		(pin "Y"
+			(uuid "dcdb6aed-6a99-4992-80f2-169c160d5747")
+		)
+		(pin "Y-"
+			(uuid "58e36b3f-9d74-4026-93d0-baa411971d81")
+		)
+		(pin "Y+"
+			(uuid "5a23b321-0216-4b52-b05c-6d260ee99c03")
 		)
 		(instances
 			(project "humep1"
 				(path "/14fccf9a-1448-438f-8f4e-f1d2e36ca6d6"
-					(reference "#U$03")
+					(reference "JOY2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Adafruit Mini Analog Thumbstick-eagle-import:microbuilder_HEADER-1X476MIL")
-		(at 142.748 178.816 0)
+		(lib_id "power:GND")
+		(at 20.32 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "bec2c470-07dd-46cf-aa6d-4663cfb7e1bd")
-		(property "Reference" "JP1"
-			(at 136.398 170.561 0)
+		(fields_autoplaced yes)
+		(uuid "cbbd5292-ad87-4491-8571-8ae1b4f9d721")
+		(property "Reference" "#PWR09"
+			(at 20.32 57.15 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "HEADER-1X476MIL"
-			(at 136.398 186.436 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Adafruit Mini Analog Thumbstick:1X04_ROUND_76"
-			(at 142.748 178.816 0)
+		(property "Value" "GND"
+			(at 20.32 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 20.32 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4175,7 +3342,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.748 178.816 0)
+			(at 20.32 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4183,8 +3350,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 142.748 178.816 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 20.32 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4193,21 +3360,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "55cf4d1c-dfb2-4a3d-a2c5-3108dffdc669")
-		)
-		(pin "2"
-			(uuid "d5914c8d-5bce-43c9-a808-29c0a405779c")
-		)
-		(pin "3"
-			(uuid "1d7e981d-0803-407c-9f97-b78c1d6eee6f")
-		)
-		(pin "4"
-			(uuid "08c0f950-1281-462e-84f8-7304cbb12746")
+			(uuid "d58aec3a-26c4-4d12-b9d3-9daca5448ecb")
 		)
 		(instances
 			(project "humep1"
 				(path "/14fccf9a-1448-438f-8f4e-f1d2e36ca6d6"
-					(reference "JP1")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -4223,7 +3381,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7037a8d-22ec-4af9-88c0-cf0c61455508")
-		(property "Reference" "C3"
+		(property "Reference" "C1"
 			(at 46.99 33.0199 0)
 			(effects
 				(font
@@ -4277,89 +3435,24 @@
 		(instances
 			(project "humep1"
 				(path "/14fccf9a-1448-438f-8f4e-f1d2e36ca6d6"
-					(reference "C3")
+					(reference "C1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 84.074 71.628 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "daf4ca56-9a98-4b81-8e35-23f1f43e7b94")
-		(property "Reference" "#FLG01"
-			(at 84.074 69.723 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 84.074 66.548 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 84.074 71.628 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 84.074 71.628 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 84.074 71.628 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f32b4179-2779-40bf-b657-3d233a9d2df7")
-		)
-		(instances
-			(project "humep1"
-				(path "/14fccf9a-1448-438f-8f4e-f1d2e36ca6d6"
-					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Adafruit Mini Analog Thumbstick-eagle-import:supply1_GND")
+		(lib_id "power:GND")
 		(at 96.52 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "db95457b-cafc-4003-9308-5a56ee69e6c1")
-		(property "Reference" "#GND01"
-			(at 96.52 73.66 0)
+		(fields_autoplaced yes)
+		(uuid "dc0a3982-afbe-4131-985e-b1f211c490f1")
+		(property "Reference" "#PWR05"
+			(at 96.52 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4368,12 +3461,11 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 93.98 76.2 0)
+			(at 96.52 78.74 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Footprint" ""
@@ -4394,7 +3486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 96.52 73.66 0)
 			(effects
 				(font
@@ -4404,12 +3496,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "dd96e6b9-c457-4723-ab60-5c6ab3b37a0d")
+			(uuid "08a339f6-0168-4b3a-881c-fe4e9b3a5796")
 		)
 		(instances
 			(project "humep1"
 				(path "/14fccf9a-1448-438f-8f4e-f1d2e36ca6d6"
-					(reference "#GND01")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -4488,72 +3580,6 @@
 			(project "humep1"
 				(path "/14fccf9a-1448-438f-8f4e-f1d2e36ca6d6"
 					(reference "BT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Adafruit Mini Analog Thumbstick-eagle-import:supply1_GND")
-		(at 96.52 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f52de9f1-58cd-4674-8b7c-ff6216859742")
-		(property "Reference" "#GND02"
-			(at 96.52 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 93.98 99.06 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 96.52 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "df9ab5ad-f2ef-475f-a143-d47eb41b7e6e")
-		)
-		(instances
-			(project "humep1"
-				(path "/14fccf9a-1448-438f-8f4e-f1d2e36ca6d6"
-					(reference "#GND02")
 					(unit 1)
 				)
 			)
