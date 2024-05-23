@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "8.0.2-1"
     },
-    "CreationDate": "2024-05-20T16:42:59-04:00"
+    "CreationDate": "2024-05-22T23:24:36-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -14,11 +14,11 @@
       "Revision": "rev?"
     },
     "Size": {
-      "X": 50.05,
-      "Y": 25.3
+      "X": 50.3,
+      "Y": 25.36
     },
     "LayerNumber": 2,
-    "BoardThickness": 0.306,
+    "BoardThickness": 0.13,
     "Finish": "None"
   },
   "DesignRules": [
@@ -37,43 +37,28 @@
       "FilePolarity": "Positive"
     },
     {
-      "Path": "humep1-B_Cu.gbl",
-      "FileFunction": "Copper,L2,Bot",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "humep1-F_Paste.gtp",
-      "FileFunction": "SolderPaste,Top",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "humep1-B_Paste.gbp",
-      "FileFunction": "SolderPaste,Bot",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "humep1-F_Silkscreen.gto",
-      "FileFunction": "Legend,Top",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "humep1-B_Silkscreen.gbo",
-      "FileFunction": "Legend,Bot",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "humep1-F_Mask.gts",
-      "FileFunction": "SolderMask,Top",
-      "FilePolarity": "Negative"
-    },
-    {
-      "Path": "humep1-B_Mask.gbs",
-      "FileFunction": "SolderMask,Bot",
-      "FilePolarity": "Negative"
-    },
-    {
       "Path": "humep1-Edge_Cuts.gm1",
       "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "humep1-B_Coverlay.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "humep1-F_Stiffener.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "humep1-F_Coverlay.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "humep1-B_Stiffener.gbr",
+      "FileFunction": "Other,User",
       "FilePolarity": "Positive"
     }
   ],
@@ -99,7 +84,7 @@
     {
       "Type": "Dielectric",
       "Color": "R205G130B0",
-      "Thickness": 0.25,
+      "Thickness": 0.074,
       "Material": "Polyimide",
       "Name": "F.Cu/B.Cu",
       "Notes": "Type: dielectric layer 1 (from F.Cu to B.Cu)"

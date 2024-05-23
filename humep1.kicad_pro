@@ -545,7 +545,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "hume_final_gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
