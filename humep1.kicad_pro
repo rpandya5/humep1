@@ -545,7 +545,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "hume_final_gerbers/",
+      "plot": "../../../Downloads/jlpcb_gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
